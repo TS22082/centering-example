@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+
+.nav {
+  height: 10vh;
+  background-color: purple;
+}
+
+.content {
+  min-height: 80vh;
+  background-color: red;
+  position: relative;
+}
+
+.centerThis {
+  position: absolute;
+  background-color: white;
+  height: 300px;
+  width: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centerThisinThis {
+  position: absolute;
+  background-color: pink;
+  height: 200px;
+  width: 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer {
+  height: 10vh;
+  background-color: green;
+}
